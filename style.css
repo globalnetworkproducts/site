@@ -94,6 +94,16 @@ table th, table td {
   padding: 6px 13px;
 }
 
+table tr {
+  background-color: #ebebeb;
+  border-top: 1px solid #cbcbcb;
+}
+table th, table td {
+  border: 1px solid #cbcbcb;
+}
+table tr:nth-child(2n) {
+  background: #e7e7e7;
+}
 
 ::placeholder {
   opacity: 1;
